@@ -1,0 +1,184 @@
+{
+  "settings": {
+    "name": "Manikandan K",
+    "title": "Aspiring Software Engineer",
+    "location": "India",
+    "summary": "Aspiring software engineer passionate about building user-focused applications and solving real-world problems with web development and machine learning.",
+    "profileImage": "https://i.postimg.cc/9FYm3dR7/profile-1.jpg",
+    "primaryColor": "#7C3AED"
+  },
+  "sections": {
+    "hero": {
+      "enabled": true,
+      "ctaButtons": [
+        {
+          "text": "Contact Me",
+          "url": "mailto:manikandankannan942@gmail.com",
+          "isPrimary": true,
+          "icon": "mail"
+        },
+        {
+          "text": "Download Resume",
+          "url": "https://drive.google.com/file/d/1rq51EtffVOutKxWVMMNjGRLm8533A9RE/view?usp=sharing",
+          "isPrimary": false,
+          "icon": "download"
+        }
+      ]
+    },
+    "about": {
+      "enabled": true,
+      "title": "About Me",
+      "content": "Experienced in academic projects involving web development and basic machine learning. Eager to learn, collaborate, and contribute to impactful software solutions. I am passionate about building user-focused applications and solving real-world problems. I am a quick learner and always looking for new challenges.",
+      "skills": {
+        "enabled": true,
+        "title": "Skills",
+        "items": [
+          "Java",
+          "C",
+          "Groovy",
+          "HTML/CSS",
+          "JDBC",
+          "Git",
+          "GitHub",
+          "VS Code",
+          "IntelliJ",
+          "Arduino",
+          "MySQL",
+          "Python",
+          "OpenCV",
+          "Scikit-learn",
+          "Mediapipe",
+          "gTTS",
+          "Streamlit"
+        ]
+      }
+    },
+    "experience": {
+      "enabled": true,
+      "title": "Experience",
+      "items": [
+        {
+          "company": "CipherByte Technologies",
+          "position": "Frontend Intern",
+          "period": "June 2024 - July 2024",
+          "description": "Contributed to the development of web applications by building reusable UI components and integrating third-party REST APIs. Improved user interface responsiveness and cross-browser compatibility. Collaborated in an Agile team using Git for version control."
+        }
+      ]
+    },
+    "projects": {
+      "enabled": true,
+      "title": "Projects",
+      "items": [
+        {
+          "title": "Sign Language to Text/Speech Translator (SIH 2024)",
+          "description": "Built an AI-powered tool to convert American Sign Language (ASL) hand gestures into real-time text and speech, aimed at bridging the communication gap for the hearing-impaired. Utilized hand landmark tracking and custom-trained classifiers to recognize gestures with over 90% accuracy. Integrated into a web interface for accessibility and tested with various dynamic and static signs.",
+          "tags": [
+            "Python",
+            "OpenCV",
+            "Scikit-learn",
+            "Mediapipe",
+            "gTTS",
+            "Streamlit"
+          ],
+          "previewUrl": "https://github.com/manikandan628/signlanguage"
+        },
+        {
+          "title": "Smart Crop Protection System (IITMIC 2023)",
+          "description": "Designed and implemented a sensor-based system that detects birds or animals and activates scare mechanisms to protect farmlands. The model was built for rural scalability and presented at IITMIC.",
+          "tags": [
+            "Arduino UNO",
+            "Pressure Sensor",
+            "Jumper Wires"
+          ],
+          "previewUrl": "https://github.com/manikandan628/IITM---mitigating-birds"
+        },
+        {
+          "title": "Weather Monitoring Web App",
+          "description": "Developed a real-time weather dashboard using public APIs. Users can search by location and get responsive weather data with visuals. Optimized frontend for smooth performance and cross-device compatibility.",
+          "tags": [
+            "HTML",
+            "JavaScript",
+            "CSS",
+            "Weather API"
+          ],
+          "previewUrl": "https://github.com/manikandan628/weather-predicting-page"
+        }
+      ]
+    },
+    "education": {
+      "enabled": true,
+      "title": "Education",
+      "items": [
+        {
+          "institution": "PSNA College of Engineering and Technology",
+          "degree": "B.E. Electronics and Communication Engineering",
+          "period": "Nov 2022 - May 2026"
+        },
+        {
+          "institution": "Lakshmi Matric Higher Secondary School",
+          "degree": "HSC (12th Grade)",
+          "period": "Apr 2021 - Apr 2022"
+        }
+      ]
+    },
+    "contact": {
+      "enabled": true,
+      "title": "Contact",
+      "email": "manikandankannan942@gmail.com",
+      "phone": "+91 8072062958",
+      "location": "India"
+    },
+    "social": {
+      "enabled": true,
+      "items": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://www.linkedin.com/in/mani-kandan-k-901585269",
+          "icon": "globe"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/manikandan628",
+          "icon": "globe"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/mk_dracarys_/?__pwa=1",
+          "icon": "instagram"
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "items": [
+      {
+        "name": "Home",
+        "url": "#hero"
+      },
+      {
+        "name": "About",
+        "url": "#about"
+      },
+      {
+        "name": "Experience",
+        "url": "#experience"
+      },
+      {
+        "name": "Projects",
+        "url": "#projects"
+      },
+      {
+        "name": "Education",
+        "url": "#education"
+      },
+      {
+        "name": "Contact",
+        "url": "#contact"
+      }
+    ]
+  },
+  "footer": {
+    "enabled": true,
+    "copyright": "© 2025 Manikandan K. All rights reserved."
+  }
+}
